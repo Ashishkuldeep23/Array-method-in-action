@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="!">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods in action.</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font style here -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+
+        <h1>Array Method of JS (In Action)</h1>
+
+        <h2>*Separate items by <em style="color:red;"><u>One Space(" ")</u></em> [Ex:(1 2 3 4 5) give input like this]*</h2>
+
+        <div class="input">
+
+            <input type="text" name="arr" id="arr_input" placeholder="1 2 3 4 5">
+
+            <input type="button" value="Display" onclick="arr_display(this.input)">
+
+            
+        </div>
+        <br>
+      
+        <div id="arr_show">Your Array[]</div>
+
+
+        <div class="new_arr">
+
+            <div id="arr_new"> </div>
+            <div id="arr_method"> </div>
+            
+        </div>
+
+
+
+            
+        <div class="method_start">
+            
+            <div>
+
+                <label for="popa">1. arr.pop()</label>
+                <input type="button" onclick="arr_pop()" name="popa" value="Pop">
+            </div>
+
+            <div>
+                
+                
+                <label for="pusha">2. arr.push()</label>
+                <span>
+                    <input type="text" id="arr_push_new">
+                </span>
+                <input type="button" value="Push" name="pusha" onclick="arr_push()">
+               
+                
+            </div>
+
+            <div>
+
+                <label for="shifa">3. arr.shift()</label>
+                <input type="button" onclick="arr_shift()" name="shifa"  value="Shift">
+            </div>
+
+
+
+            <div>
+                
+                
+                <label for="unshifta">4. arr.unshift()</label>
+                <span>
+                    <input type="text" id="arr_unshift_new">
+                </span>
+                <input type="button" value="Unshift" name="unshifta" onclick="arr_unshift()">
+               
+                
+            </div>
+
+            
+        </div>
+
+        <span>Exception is always present, if you find then ignore.(It's mine Learning phase)</span>
+
+    </main>
+
+
+
+
+
+    <script src="index.js"> </script>
+
+</body>
+</html>
